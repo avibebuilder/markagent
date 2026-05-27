@@ -1,0 +1,78 @@
+name: Bug report
+description: Something in Markagent isn't working the way you expected
+title: "[Bug] "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. The more specific you are, the faster it gets fixed.
+
+        **Tip:** Use Markagent itself to record the steps to reproduce! Hit `Cmd+Shift+.` → start journey mode → reproduce → paste the export here.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear description of the bug.
+      placeholder: When I click X on page Y, instead of A I see B.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Numbered list, or paste a Markagent journey export.
+      placeholder: |
+        1. Go to ...
+        2. Press Cmd+Shift+. ...
+        3. Click on ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: false
+
+  - type: input
+    id: agent
+    attributes:
+      label: Which AI agent were you exporting to?
+      placeholder: e.g. Claude Code, Cursor, Codex, v0, Lovable
+    validations:
+      required: false
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      options:
+        - Chrome
+        - Edge
+        - Brave
+        - Arc
+        - Other Chromium
+        - Other (please specify in description)
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Markagent version
+      description: Find it in chrome://extensions
+      placeholder: e.g. 1.0.2
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots / video
+      description: Drag & drop attachments here.
+    validations:
+      required: false

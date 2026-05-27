@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Discussions
+    url: https://github.com/avibebuilder/markagent/discussions
+    about: Ask a question, share a workflow, or chat with other Markagent users.
+  - name: Buy me a coffee
+    url: https://ko-fi.com/petertr
+    about: Support development — every cup funds the next feature.
+  - name: Visit the website
+    url: https://markagent.avibebuilder.com
+    about: See the live demo and learn what Markagent does.
