@@ -1,5 +1,9 @@
 <div align="center">
 
+<a href="https://markagent.avibebuilder.com">
+  <img src="assets/marquee.png" alt="Markagent — Web annotator Chrome extension for Claude Code, Cursor, Codex and every AI coding agent" width="100%" />
+</a>
+
 # Markagent
 
 **Web annotator Chrome extension for Claude Code, Cursor, Codex and every AI coding agent.**
